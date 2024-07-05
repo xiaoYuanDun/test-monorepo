@@ -1,0 +1,77 @@
+{
+  "id": "app1",
+  "name": "app1",
+  "metaData": {
+    "name": "app1",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "dynamic-remotes_app1"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "app1",
+    "pluginVersion": "0.2.1",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "id": "app1:react-dom",
+      "name": "react-dom",
+      "version": "16.13.0",
+      "singleton": true,
+      "requiredVersion": "^16.13.0",
+      "assets": {
+        "js": {
+          "async": [
+            "vendors-node_modules_pnpm_react_16_13_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "vendors-node_modules_pnpm_react-dom_16_13_0_react_16_13_0_node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "app1:react",
+      "name": "react",
+      "version": "16.13.0",
+      "singleton": true,
+      "requiredVersion": "^16.13.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react_16_13_0_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "app2",
+      "moduleName": "Widget",
+      "alias": "app2",
+      "entry": "http://localhost:3002/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}
