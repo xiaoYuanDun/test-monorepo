@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-remotes_app1",
+  "name": "host",
   "version": "0.0.1",
   "devDependencies": {
     "@babel/core": "7.24.3",
@@ -23,6 +23,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "my-utilities": "workspace:^",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
